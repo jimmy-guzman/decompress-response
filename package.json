@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "test": "ava",
+    "test": "tsup && ava",
     "type-check": "tsc",
     "lint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --color .",
     "lint:fix": "pnpm lint --fix",
