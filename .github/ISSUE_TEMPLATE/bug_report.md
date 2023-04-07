@@ -13,7 +13,7 @@ about: Bugs, missing documentation, or unexpected behavior 🤔.
 
 ---
 
-- `library-template` version:
+- `@jimmy-guzman/decompress-response` version:
 - `typescript` version:
 - `node` version:
 

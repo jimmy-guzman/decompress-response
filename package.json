@@ -1,9 +1,9 @@
 {
-  "name": "library-template",
+  "name": "@jimmy-guzman/decompress-response",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmy-guzman/library-template.git"
+    "url": "https://github.com/jimmy-guzman/decompress-response.git"
   },
   "license": "MIT",
   "keywords": [],
@@ -20,9 +20,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "test": "ava",
     "type-check": "tsc",
     "lint": "eslint --cache --cache-location node_modules/.cache/eslint/.eslintcache --color .",
     "lint:fix": "pnpm lint --fix",
@@ -41,6 +39,9 @@
       "eslint"
     ]
   },
+  "dependencies": {
+    "mimic-response": "^4.0.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "17.3.0",
     "@semantic-release/changelog": "6.0.2",
@@ -48,19 +49,20 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@vitest/coverage-c8": "0.25.3",
+    "ava": "3.15.0",
     "commitlint": "17.3.0",
     "eslint": "8.29.0",
     "eslint-config-jimmy-guzman": "8.0.0",
+    "get-stream": "6.0.1",
     "gitzy": "3.4.0",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
+    "pify": "5.0.0",
     "prettier": "2.8.0",
     "semantic-release": "19.0.5",
     "tsup": "6.5.0",
-    "typescript": "4.9.3",
-    "vitest": "0.25.3"
+    "typescript": "4.9.3"
   },
   "files": [
     "dist"

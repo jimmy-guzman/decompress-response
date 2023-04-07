@@ -1,6 +1,7 @@
 {
   "version": "0.2",
   "words": [
+    "brotli",
     "cicd",
     "Codecov",
     "commitlint",
@@ -12,10 +13,12 @@
     "esbuild",
     "gitzy",
     "gruntfuggly",
+    "gzipped",
     "lcov",
     "nvmrc",
     "OSTYPE",
     "Parens",
+    "pify",
     "pnpm",
     "prebuild",
     "shellcheck",
