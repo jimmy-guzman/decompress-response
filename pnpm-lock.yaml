@@ -17,15 +17,12 @@ specifiers:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
-  mimic-response: ^4.0.0
+  mimic-response: 4.0.0
   pify: 5.0.0
   prettier: 2.8.0
   semantic-release: 19.0.5
   tsup: 6.5.0
   typescript: 4.9.3
-
-dependencies:
-  mimic-response: 4.0.0
 
 devDependencies:
   '@commitlint/config-conventional': 17.3.0
@@ -44,6 +41,7 @@ devDependencies:
   husky: 8.0.2
   is-ci: 3.0.1
   lint-staged: 13.1.0
+  mimic-response: 4.0.0
   pify: 5.0.0
   prettier: 2.8.0
   semantic-release: 19.0.5
@@ -3873,7 +3871,7 @@ packages:
   /mimic-response/4.0.0:
     resolution: {integrity: sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dev: false
+    dev: true
 
   /min-indent/1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}

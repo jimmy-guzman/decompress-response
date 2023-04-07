@@ -39,9 +39,6 @@
       "eslint"
     ]
   },
-  "dependencies": {
-    "mimic-response": "^4.0.0"
-  },
   "devDependencies": {
     "@commitlint/config-conventional": "17.3.0",
     "@semantic-release/changelog": "6.0.2",
@@ -59,6 +56,7 @@
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
+    "mimic-response": "4.0.0",
     "pify": "5.0.0",
     "prettier": "2.8.0",
     "semantic-release": "19.0.5",
