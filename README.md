@@ -6,7 +6,7 @@
 
 <!-- ![description starts here] -->
 
-> 🍱 A fork of [decompress-response](https://github.com/sindresorhus/decompress-response) but with CJS support
+> A fork of [decompress-response](https://github.com/sindresorhus/decompress-response) but with CJS support
 
 Decompresses the [response](https://nodejs.org/api/http.html#http_class_http_incomingmessage) from [`http.request`](https://nodejs.org/api/http.html#http_http_request_options_callback) if it's gzipped, deflated or compressed with Brotli, otherwise just passes it through.
 
@@ -43,12 +43,11 @@ The HTTP incoming stream with compressed data.
 
 <!-- badges links -->
 
-[version-badge]: https://img.shields.io/npm/v/decompress-response.svg?logo=npm&style=flat-square
-[package]: https://www.npmjs.com/package/decompress-response
-[downloads-badge]: https://img.shields.io/npm/dm/decompress-response.svg?logo=npm&style=flat-square
-[npmtrends]: http://www.npmtrends.com/decompress-response
+[version-badge]: https://img.shields.io/npm/v/@jimmy-guzman/decompress-response.svg?logo=npm&style=flat-square
+[package]: https://www.npmjs.com/package/@jimmy-guzman/decompress-response
+[downloads-badge]: https://img.shields.io/npm/dm/@jimmy-guzman/decompress-response.svg?logo=npm&style=flat-square
+[npmtrends]: http://www.npmtrends.com/@jimmy-guzman/decompress-response
 [semantic-release]: https://semantic-release.gitbook.io/semantic-release/
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/decompress-response.svg?style=flat-square
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
