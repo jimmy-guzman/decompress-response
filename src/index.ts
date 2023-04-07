@@ -25,7 +25,7 @@ Decompress a HTTP response if needed.
 @example
 ```
 import http from 'http';
-import decompressResponse from 'decompress-response';
+import decompressResponse from '@jimmy-guzman/decompress-response';
 http.get('https://sindresorhus.com', response => {
 	response = decompressResponse(response);
 });

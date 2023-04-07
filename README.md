@@ -2,7 +2,7 @@
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![code style: prettier][prettier-badge]][prettier]
 
-# decompress-response
+# @jimmy-guzman/decompress-response
 
 <!-- ![description starts here] -->
 
@@ -13,14 +13,14 @@ Decompresses the [response](https://nodejs.org/api/http.html#http_class_http_inc
 ## Install
 
 ```sh
-pnpm add decompress-response
+pnpm add @jimmy-guzman/decompress-response
 ```
 
 ## Usage
 
 ```ts
 import http from 'http'
-import decompressResponse from 'decompress-response'
+import decompressResponse from '@jimmy-guzman/decompress-response'
 
 http.get('https://sindresorhus.com', (response) => {
   response = decompressResponse(response)
