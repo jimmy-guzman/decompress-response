@@ -5,13 +5,13 @@
 With ssh
 
 ```bash
-git clone git@github.com:jimmy-guzman/library-template.git
+git clone git@github.com:jimmy-guzman/decompress-response.git
 ```
 
 With Github Cli
 
 ```bash
-gh repo clone jimmy-guzman/library-template
+gh repo clone jimmy-guzman/decompress-response
 ```
 
 ## Install
