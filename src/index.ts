@@ -24,7 +24,7 @@ Decompress a HTTP response if needed.
 @returns The decompressed HTTP response stream.
 @example
 ```
-import http from 'node:http';
+import http from 'http';
 import decompressResponse from 'decompress-response';
 http.get('https://sindresorhus.com', response => {
 	response = decompressResponse(response);

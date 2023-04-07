@@ -19,7 +19,7 @@ pnpm add decompress-response
 ## Usage
 
 ```ts
-import http from 'node:http'
+import http from 'http'
 import decompressResponse from 'decompress-response'
 
 http.get('https://sindresorhus.com', (response) => {
