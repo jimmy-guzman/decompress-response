@@ -1,0 +1,10 @@
+CHANGELOG.md
+.cache
+.reports
+.yalc
+dist
+coverage
+
+!.config/
+!.github/
+!.vscode
