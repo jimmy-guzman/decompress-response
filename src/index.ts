@@ -32,13 +32,15 @@ http.get('https://sindresorhus.com', response => {
 ```
 */
 // eslint-disable-next-line max-lines-per-function, @typescript-eslint/explicit-module-boundary-types
-export default function decompressResponse(response: IncomingMessage) {
+export default function decompressResponse(
+  response: IncomingMessage
+): UncompressedIncomingMessage {
   const contentEncoding = (
     response.headers['content-encoding'] ?? ''
   ).toLowerCase()
 
   if (!['gzip', 'deflate', 'br'].includes(contentEncoding)) {
-    return response
+    return response as UncompressedIncomingMessage
   }
 
   delete response.headers['content-encoding']
@@ -100,5 +102,5 @@ export default function decompressResponse(response: IncomingMessage) {
   mimicResponse(response, finalStream)
   response.pipe(checker)
 
-  return finalStream
+  return finalStream as unknown as UncompressedIncomingMessage
 }
